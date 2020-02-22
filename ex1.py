@@ -13,7 +13,6 @@ lista1.remove(x3)
 x4=max(lista1, key=len) #fifth biggest element 
 lista1.remove(x4)
 lista2=[x, x1, x2 ,x3 ,x4]
-print (x4)
 
 
 def removeVowels(strg):
@@ -21,7 +20,6 @@ def removeVowels(strg):
     vowels=['a', 'e', 'i', 'o', 'u','y','A' ,'E','I','O','U','Y']
     for k in strg:    
         if k in vowels:
-           print (k)
            strg=strg.replace(k,'')
             
     print(strg[::-1])
